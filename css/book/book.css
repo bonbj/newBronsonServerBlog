@@ -4,4 +4,6 @@
     max-width: 120rem;
     min-height: 200px;
     background-color: var(--paper);
+    border-radius: 0.5pc;
+    border: 5px solid var(--border);
 }
