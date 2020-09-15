@@ -6,6 +6,7 @@
     color: var(--font-main);
     font-weight: 700;
     font-family: 'Courier New', Courier, monospace;
+    text-align: center;
 }
 
 body {
@@ -14,4 +15,33 @@ body {
     background: linear-gradient(to right,var(--gradient-first), var(--gradient-second)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     display: flex;
     justify-content: center;
+}
+
+.display-show {
+    display: block;
+}
+
+.display-none {
+    display: none;
+}
+
+.title-main {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: initial;
+}
+
+.title-second {
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: initial;
+    margin-top: 1rem;
+}
+
+.home {
+    font-size: 2rem;
+}
+
+.imgs-std {
+    width: 100%;
 }

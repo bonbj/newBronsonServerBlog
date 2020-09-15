@@ -1,6 +1,8 @@
 :root {
     --paper: #debb9d;
-    --font-main: #000000;
+    --paper-mid: #a8988b;
+    --paper-strong: #5c4735;
+    --font-main: #4e4034;
     --border: saddlebrown;
     --gradient-first: #155799;
     --gradient-second: #159957;

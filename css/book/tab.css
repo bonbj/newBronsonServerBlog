@@ -1,0 +1,27 @@
+.tab-container {
+    min-height: 50rem;
+    width: 6rem;
+    background-color: var(--paper);
+    position: relative;
+    margin-top: 5rem;
+}
+
+.tab-btn {
+    width: 100%;
+    background-color: var(--paper-mid);
+    border: var(--border) 2px solid;
+    height: 4rem;
+    text-transform: uppercase;
+}
+
+.tab-btn:hover{
+    background-color: var(--paper-strong);
+}
+
+.tab-btn-active {
+    text-decoration: underline;
+    width: 100%;
+    border: var(--border) 2px solid;
+    background-color: var(--paper-strong);
+    color: var(--paper);
+}

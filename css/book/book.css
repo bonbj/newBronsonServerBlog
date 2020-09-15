@@ -1,9 +1,29 @@
 .book {
     margin-top: 5rem;
-    min-width: 45rem;
-    max-width: 120rem;
+    width: 45rem;
     min-height: 50rem;
     background-color: var(--paper);
-    border-radius: 0.5pc;
-    border: 5px solid var(--border);
+    border-right: 2px solid var(--border);
+    border-top-left-radius: 0.5pc;
+    border-bottom-left-radius: 0.5pc;
+    border-bottom: 5px solid var(--border);
+    border-top: 5px solid var(--border);
+    border-left: 5px solid var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.book-page {
+    width: 90%;
+    min-height: 90%;
+}
+
+.p-text-simple {
+    margin-top: 2rem;
+    border: 2px solid var(--border);
+}
+
+.publication {
+    flex-direction: column;
 }
