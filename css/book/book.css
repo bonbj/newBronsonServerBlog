@@ -27,3 +27,18 @@
 .publication {
     flex-direction: column;
 }
+
+.book-grid {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.book-grid > a {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border: 2px solid var(--border);
+    margin: 3px;
+    width: 8rem;
+}

@@ -22,7 +22,7 @@ body {
 }
 
 .display-none {
-    display: none;
+    display: none !important;
 }
 
 .title-main {
